@@ -19,5 +19,5 @@ RUN rm /etc/nginx/conf.d/default.conf
 # Copy your custom Nginx configuration file to the container
 COPY nginx.conf /etc/nginx/conf.d/
 
-# Expose port 80 to allow external access to the web server
-EXPOSE 6000
+# Expose port 8000 to allow external access to the web server
+EXPOSE 8000
