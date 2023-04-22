@@ -35,6 +35,9 @@
     position: absolute;
     left: 0;
     animation: move-cracker 5s linear infinite;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
   }
   
   @keyframes move-cracker {
