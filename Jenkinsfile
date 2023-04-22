@@ -25,7 +25,7 @@ pipeline {
         }
         stage('Run Docker container') {
             steps {
-                sh 'docker run -d -p 80:80 --name my-web-app $DOCKER_IMAGE'
+                sh 'docker run -d -p 6000:6000 --name my-web-app $DOCKER_IMAGE'
             }
         }
     }
