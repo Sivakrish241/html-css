@@ -55,7 +55,7 @@
     position: relative;
   } */
   
-  .cracker {
+  /* .cracker {
     position: absolute;
     top: 0;
     left: 0;
@@ -69,4 +69,29 @@
     100% {
       left: 100%;
     }
+  } */
+
+  .cracker-container {
+    position: relative;
+    height: 200px; /* Set the container height to match the GIF height */
   }
+  
+  .cracker {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    animation: move-cracker 5s linear infinite;
+  }
+  
+  @keyframes move-cracker {
+    0% {
+      top: 50%;
+    }
+    50% {
+      top: 30%;
+    }
+    100% {
+      top: 50%;
+    }
+  }
+  
