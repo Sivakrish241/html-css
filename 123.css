@@ -31,7 +31,7 @@
     border-width: 0px;
 }
 
-.cracker {
+/* .cracker {
     position: absolute;
     left: 0;
     animation: move-cracker 5s linear infinite;
@@ -51,7 +51,7 @@
 
   .cracker-container {
     position: relative;
-  }
+  } */
   
   .cracker {
     position: absolute;
