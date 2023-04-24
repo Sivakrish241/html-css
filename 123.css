@@ -55,7 +55,7 @@
     position: relative;
   } */
   
-  /* .cracker {
+  .cracker {
     position: absolute;
     top: 0;
     left: 0;
@@ -69,14 +69,14 @@
     100% {
       left: 100%;
     }
-  } */
-
-  .cracker-container {
-    position: relative;
-    height: 200px; /* Set the container height to match the GIF height */
   }
+
+  /* .cracker-container {
+    position: relative;
+    height: 200px; #Set the container height to match the GIF height
+  } */
   
-  .cracker {
+  /* .cracker {
     position: absolute;
     top: 50%;
     left: 0;
@@ -93,5 +93,5 @@
     100% {
       top: 50%;
     }
-  }
+  } */
   
