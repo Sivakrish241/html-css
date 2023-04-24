@@ -33,7 +33,7 @@
     border-width: 0px;
 }
 
-/* .cracker {
+.cracker {
     position: absolute;
     left: 0;
     animation: move-cracker 5s linear infinite;
@@ -53,9 +53,9 @@
 
   .cracker-container {
     position: relative;
-  } */
+  }
   
-  .cracker {
+  /* .cracker {
     position: absolute;
     top: 0;
     left: 0;
@@ -69,7 +69,7 @@
     100% {
       left: 100%;
     }
-  }
+  } */
 
   /* .cracker-container {
     position: relative;
